@@ -500,3 +500,13 @@ footer {
         padding: 1rem;
     }
 }
+
+/* performance ottimizzazioni */
+.skill-progress,
+.project-card,
+.cta-button {
+    will-change: transfomr;
+}
+.hero {
+   will-change: transform;
+}
